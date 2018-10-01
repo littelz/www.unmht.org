@@ -1,0 +1,123 @@
+<Html>
+<head>
+<link href='http://www.freefavicon.com/freefavicons/flags/flag_indonesia.gif' rel='shortcut icon'/>
+
+
+<style type="text/css">
+<!--
+.style3 {color: #FF0000}
+.style4 {color: #0000FF}
+.style5 {color: #FFFF00}
+.style6 {color: #00FFFF}
+-->
+</style>
+
+<body style="cursor: ;">
+<style type="text/css"><!--
+body {background-image: url();
+background-color: black;color: #FFA500;font-weight: bold;text-align: center;}
+.shadow {color: #000;font-size: 20px;margin:0;text-shadow: 0 1px 3px #00FF00, -1px 0 3px #00FF00, 0 -1px 3px #00FF00, 1px 0 3px #00FF00;margin-top: -12px;}
+.lol {font-family: Century Gothic;color: #000;text-shadow: 0pt 0pt 3px lime, 0pt 0pt 3px lime, 0 0 5px #ff2d95, 0 0 5px #ff2d95;}
+#owned{background-color:;position:fixed;bottom:10px;font-size:12px;color:#6633CC;left:10px;padding:0px 0;
+clip:_top:expression(document.documentElement.scrollTop+document.documentElement.clientHeight-this.clientHeight);
+_left:expression(document.documentElement.scrollLeft + document.documentElement.clientWidth - offsetWidth);}
+--></style>
+
+
+<body oncontextmenu='return false;' onkeydown='return false;' onmousedown='return false;'>
+
+<body bgcolor="black">
+
+
+</center>
+<center>
+  <p><u><font face="Arial Black" color="#0000FF" size="5"></u></p>
+  <p><span class="style3">Littelz Here</span></font>
+    <br>
+    <br>
+    <font color="white" FACE="courier">
+      
+      <script type="text/javascript">
+var charIndex = -1;
+var stringLength = 0;
+var inputText;
+function writeContent(init){
+if(init){
+inputText = document.getElementById('contentToWrite').innerHTML;
+}
+if(charIndex==-1){
+charIndex = 0;
+stringLength = inputText.length;
+}
+var initString = document.getElementById('myContent').innerHTML;
+initString = initString.replace(/<SPAN.*$/gi,"");
+
+var theChar = inputText.charAt(charIndex);
+var nextFourChars = inputText.substr(charIndex,4);
+if(nextFourChars=='<BR>' || nextFourChars=='<br>'){
+theChar = '<BR>';
+charIndex+=3;
+}
+initString = initString + theChar + "<SPAN id='blink'>.</SPAN>"; 
+
+document.getElementById('myContent').innerHTML = initString;
+
+charIndex = charIndex/1 +1;
+if(charIndex%2==1){
+document.getElementById('blink').style.display='none';
+}else{
+document.getElementById('blink').style.display='inline';
+}
+
+if(charIndex<=stringLength){
+setTimeout('writeContent(false)',40);
+}else{
+blinkSpan();
+}
+}
+
+var currentStyle = 'inline';
+function blinkSpan(){
+if(currentStyle=='inline'){
+currentStyle='none';
+}else{
+currentStyle='inline';
+}
+document.getElementById('blink').style.display = currentStyle;
+setTimeout('blinkSpan()',300);
+
+}
+
+
+msg = "| Hacked By Blitar Hacker |"
+msg = "" + msg;pos = 0;
+function scrollMSG() {
+document.title = msg.substring(pos, msg.length) + msg.substring(0, pos);
+pos++;
+if (pos > msg.length) pos = 0
+window.setTimeout("scrollMSG()",400);
+}
+scrollMSG();
+    </script>
+  </font></p>
+  <font color="white" FACE="courier">
+<div id="myContent" class="tip"></div>
+<div id="contentToWrite" style="display:none" text-decoration:"overline"="" class="tip">
+Thanks:
+  <br>
+Blitar hacker link - Blitar cyber team - Indouska - Indonesian security down
+  <br>
+  </div>
+  </font>
+</center>
+<p><br>
+  <center>
+    
+<p><span class="style6"></span>
+  <script type="text/javascript">
+writeContent(true);
+  </script>
+  
+  </script>
+  <center> 
+</p>
